@@ -1,0 +1,51 @@
+body{
+    padding: 0% !important;
+}
+.blog-container{
+    max-width: 950px;
+    width: 80%;
+    margin: 25px auto;
+    padding: 40px 75px;
+    background-color: white;
+}
+.blog-section{
+    background: url('../assets/blog-back.png'), #EEEEEE;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-top: 75px;
+    padding-bottom: 1px;
+}
+.blog-sec-title{
+    font-size: 22px;
+    color: #b12930;
+    text-align: center;
+}
+.blog-title{
+    font-size: 21px;
+    margin-top: 50px;
+}
+.blog-content{
+    font-size: 13px;
+    color: black;
+    line-height: 23px;
+}
+.back{
+    width: fit-content;
+    margin: auto;
+    font-size: 16px;
+    color: #b12930;
+    text-align: center;
+}
+
+.back:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (max-width: 800px) {
+    .blog-container{
+        padding: 40px;
+        width: 100%;
+        margin: auto;
+    }
+}
