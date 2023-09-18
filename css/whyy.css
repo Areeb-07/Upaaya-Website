@@ -140,7 +140,7 @@
   }
 
   .main-timeline .year:hover {
-    background-color: #223dc2;
+    background-color: #F7941D;
     color: #fff;
     cursor: pointer;
   }
@@ -251,6 +251,9 @@
 .main-timeline .timeline:last-child:nth-child(even){
     margin: 0;
 }
+.why-content{
+    margin: 14px 200px;
+}
 @media only screen and (max-width: 990px){
     .main-timeline:before{ left: 100%; }
     .main-timeline .timeline{
@@ -306,6 +309,9 @@
     .main-timeline .timeline:nth-child(even){
         margin: 0;
     }
+    .why-content{
+        margin: 14px 50px;
+    }
 }
 @media only screen and (max-width: 480px){
     .main-timeline:before{ left: 0; }
@@ -348,4 +354,17 @@
     }
 }
 
-
+.card-img{
+    max-width: 400px; 
+}
+@media only screen and (max-width: 800px){
+    .why-content{
+        margin: 14px 20px;
+    }
+    .card-head{
+        text-align: center;
+    }
+    .card-img{
+        max-width: 300px; 
+    }
+}
