@@ -1,4 +1,4 @@
-.price div:hover {
+.price-card div:hover {
     transform: scale(1.08);
 }
 
@@ -92,13 +92,6 @@
     }
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-content: center;
-}
-
 .myCard {
     width: 100%;
     height: 200px;
@@ -130,4 +123,73 @@
 .title {
     font-size: 20px;
     font-weight: bold;
+}
+
+.plans{
+  padding-top: 40px;
+}
+.price-card{
+  display: flex; 
+}
+.feature-div{
+  display: flex; 
+}
+.faq-img{
+  width: 300px;
+}
+.faq-head{
+  font-size: 50px;
+  text-align: center;
+  margin-right: 100px;
+}
+#FAQ{
+  display: flex;
+}
+
+@media only screen and (max-width: 1350px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .price-card{
+    display: block; 
+  }
+  .faq-head{
+    font-size: 45px;
+  }
+  .faq-img{
+    width: 250px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .feature-div{
+    display: grid;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #FAQ{
+    display: grid;
+  }
+  .faq-head{
+    font-size: 35px;
+    margin: 0%;
+  }
+  .faq-img{
+    width: 200px;
+    margin: auto;
+  }
 }

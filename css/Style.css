@@ -3,6 +3,9 @@
 .footer *{
   margin: 0px;
 }
+ul{
+  padding: 0;
+}
 
 html, body{
     margin: 0%;
@@ -958,7 +961,6 @@ footer h4{
       justify-content: space-evenly;
       margin-top: 80px;
       margin-right: 0px;
-      margin-bottom: 80px;
       margin-left: 0px;
     }
   
@@ -974,6 +976,7 @@ footer h4{
     .arch_contact_us_duplicate .text-blk.section-head {
       font-size: 40px;
       line-height: 45px;
+      margin-top: 30px;
     }
   
     .arch_contact_us_duplicate .responsive-container-block.big-container {
@@ -1534,6 +1537,10 @@ body {
   margin: 0px; 
 }
 
+.follow{
+  display: grid;
+  justify-content: space-between;
+}
 
 @media only screen and (max-width: 1050px) {
   .nav{
@@ -1560,6 +1567,9 @@ body {
 } 
 
 @media only screen and (max-width: 800px) {
+  footer.footer .container > div{
+    padding:  1rem .9rem !important;
+}
   .nav{
     padding: 10px 2rem;
     box-shadow: 10px 0px 10px #00000050;

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>About Us</title>
+    <title>Upaaya</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -119,51 +119,57 @@
      <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
      <nav class="nav" >
-        <div class="nav-menu flex-row">
-            <div class="nav-brand">
-                <a href="#" class="text-gray">Upaaya</a>
-            </div>
-            <div class="toggle-collapse">
-                <div class="toggle-icons">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
-            <div>
-                <ul class="nav-items">
-                    <li class="nav-link">
-                        <a href="index.html">Home</a>
+      <div class="nav-menu flex-row">
+        <div id="google_translate_element" style="background-color: #ffc305; height: 40px; border-radius: 3px;">
+          <svg class="translate-img" style="position: absolute;  top: 50%; transform: translateY(-50%);" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FFFFFF" class="bi bi-globe2" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+          </svg>
+          <h4 class="translate-txt" style="position: absolute; top: 50%; left: 50px; transform: translateY(-50%); color: #ffffff;">Translate</h4>
+      </div>
+          <div class="nav-brand">
+              <a href="#" class="text-gray">
+                  <img src="assets/upayaa logo-05.png" style="width: 150px; height: 55px; margin: auto;" alt="">
+              </a>
+          </div>
+          <div class="toggle-collapse">
+              <div class="toggle-icons">
+                  <i id="navToggle" class="fas fa-bars" style="color: #F7941D;"></i>
+              </div>
+          </div>
+          <div class="nav-content collapse">
+              <ul class="nav-items">
+                  <li class="nav-link dropdown">
+                      <a href="index.html">Home</a>
                     </li>
-                    <li class="nav-link">
-                        <a href="cards.html">About-Us</a>
-                    </li>
-                    <li class="nav-link dropdown">
-                        <a href="#" class="dropdown-toggle" onclick="toggleDropdown(event)" style="text-decoration: none; color: #333;">Pricing</a>
-                        <ul class="dropdown-menu" id="dropdownMenu" style="display: none;">
-                          <li><a href="#site-mission" style="text-decoration: none; color: #333;">Pricing</a></li>
-                          <li><a href="#Feature" style="text-decoration: none; color: #333;">Compare Features</a></li>
-                          <li><a href="#FAQ" style="text-decoration: none; color: #333;">FAQs</a></li>
-                        </ul>
-                      </li>
-                    <li class="nav-link">
-                        <a href="whyy.html">Why</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="#">Forms</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="contactus.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="social text-gray">
-                <a href="https://www.facebook.com/insight.iitbombay/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/insight.iitb/?hl=en"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/insightiitb?lang=en"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.youtube.com/channel/UCOrygxhb6povqsNt_EVbDzg"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </nav>
-
+                  <li class="nav-link">
+                      <a href="cards.html">About-Us</a>
+                  </li>
+                  <li class="nav-link">
+                      <a href="whyy.html">Why</a>
+                  </li>
+                  <li class="nav-link">
+                      <a href="pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-link">
+                      <a href="contactus.html">Contact Us</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="login-signup collapse" >
+              <a href="#" style="display: inline-block; background-color: transparent; color: #ffc305; padding: 12px 30px; border: 2px solid #ffc305; border-radius: 30px; text-decoration: none; margin-top: 12px;"
+                  onmouseover="this.style.backgroundColor='#F7941D'; this.style.color='#FFFFFF';"
+                  onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ffc305';">
+                  Login
+              </a>
+          
+              <a href="#" style="display: inline-block; background-color: #ffc305; color: #fff; padding: 12px 30px; border-radius: 30px; text-decoration: none; margin-left: 10px; margin-top: 12px;"
+                  onmouseover="this.style.backgroundColor='#F7941D'"
+                  onmouseout="this.style.backgroundColor='#ffc305'">
+                  Sign Up
+              </a>
+          </div>
+          
+  </nav>
 
 
     <style>
@@ -207,7 +213,6 @@
         }
     </style>
 
-    <div id="google_translate_element" style="background-color: #ffc305; padding:10px 10px; border-radius:1rem;"></div>
 
     <script type="text/javascript">
         function googleTranslateElementInit() {
@@ -255,19 +260,19 @@
     <div style="text-align: center;">
         <h3>Our Pricing is not expensive but its not<br> cheap either, its exactly what it should be</h3>
     </div>
-   <br><br><br><br>
-   <div style="display: flex; justify-content: center;">
-    <div style="width: 20%; height: 340px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px; background-color: #ffffff; margin: 0 10px; box-sizing: border-box; transition: transform 0.3s ease; justify-content: center; text-align: center;">
+   <br><br>
+   <div class="price-card" style="justify-content: space-evenly;">
+    <div style="min-width: 300px; width: 20%; padding: 20px; padding-bottom: 35px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); border-radius: 10px; background-color: #ffffff; margin: 0px auto 40px auto; box-sizing: border-box; transition: transform 0.3s ease; justify-content: center; text-align: center;">
         <h2>Basic</h2>
         <h1 style="display: inline;">Rs 1500</h1><p style="display: inline;">/per session</p><br><br><br>
         <p>For individuals and small teams or groups.</p><br>
         <a href="#" style="display: inline-block; background-color: transparent; color: #ffc305; padding: 12px 30px; border: 2px solid #ffc305; border-radius: 5px; text-decoration: none; justify-content:center"
-            onmouseover="this.style.backgroundColor='#ffc305'; this.style.color='#F7941D';"
+            onmouseover="this.style.backgroundColor='#ffc305'; this.style.color='#FFFFFF';"
             onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ffc305';">
             Get Started with Basic
         </a>
     </div>
-    <div style="width: 20%; height: 340px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px; background-color: #ffffff; margin: 0 10px; box-sizing: border-box; transition: transform 0.3s ease; text-align: center;">
+    <div style="min-width: 300px; width: 20%; padding: 20px; padding-bottom: 35px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); border-radius: 10px; background-color: #ffffff; margin: 0px auto 40px auto; box-sizing: border-box; transition: transform 0.3s ease; text-align: center;">
         <h2>Premium</h2>
         <h1 style="display: inline;">Rs 1500</h1><p style="display: inline;">/per session</p><br><br><br>
         <p>For Start-Ups and growing Businesses.</p><br>
@@ -277,12 +282,12 @@
            Get Started with Pro
         </a>
     </div>
-    <div style="width: 20%; height: 340px; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 10px; background-color: #ffffff; margin: 0 10px; box-sizing: border-box; transition: transform 0.3s ease; text-align: center;">
+    <div style="min-width: 300px; width: 20%; padding: 20px; padding-bottom: 35px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); border-radius: 10px; background-color: #ffffff; margin: 0px auto 40px auto; box-sizing: border-box; transition: transform 0.3s ease; text-align: center;">
         <h2>Exclusive</h2>
         <h1 style="display: inline;">Rs 1500</h1><p style="display: inline;">/per session</p><br><br><br>
         <p>For organizations with advanced needs.</p><br>
         <a href="#" style="display: inline-block; background-color: transparent; color: #ffc305; padding: 12px 30px; border: 2px solid #ffc305; border-radius: 5px; text-decoration: none;"
-            onmouseover="this.style.backgroundColor='#ffc305'; this.style.color='#F7941D';"
+            onmouseover="this.style.backgroundColor='#ffc305'; this.style.color='#FFFFFF';"
             onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ffc305';">
             Get Started with Business
         </a>
@@ -295,113 +300,109 @@
         }
     </style> -->
 </section>
-    <br><br><br><br><br>
-
-
-    <br> 
-
+    
 <div id="Feature">
-    <section style="margin-left: 20px;">
-        <h1 style="color: #141212; text-align: center;">Compare Features</h1><br>
+    <section>
+        <h1 style="color: #141212; text-align: center; margin: 0;">Compare Features</h1>
         
-        <div style="display: flex; margin: 0 auto; max-width: 1100px; border-radius: 5px; background-color: #ffffff; box-shadow: 0 8px 16px rgba(0, 0, 0, 0); padding: 20px; margin-left: auto; margin-right: auto;">
-        <div style="flex: 30%; padding-left:200px;"><br>
+        <div class="feature-div" style="justify-content: space-evenly; margin: 0 auto; max-width: 1100px; border-radius: 5px; background-color: #ffffff; box-shadow: 0 8px 16px rgba(0, 0, 0, 0); padding: 20px; margin-left: auto; margin-right: auto;">
+        <div><br>
             <h2 style="color: #141212;">Basic</h2>
             <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
            
         </div>
 
-        <div style="flex: 10%;"><br>
+        <div><br>
             <h2 style="color: #141212;">Premium</h2>
             <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
             
         </div>
-        <div style="flex: 20%; padding-right:20px"><br>
+        <div><br>
             <h2 style="color: #141212;">Exclusive</h2>
             <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div><div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               <div style="display: flex; align-items: center;">
                 <span class="fas fa-check-circle fa-2x" style="margin-right: 10px; color: #ffc305;"></span>
-                <p style="margin-bottom: 0;">Feature Name</p><br><br>
+                <p>Feature Name</p><br><br>
               </div>
               
         </div>
@@ -414,11 +415,11 @@
 
 
 <section>
-    <div id="FAQ" style="display: flex; justify-content: center; align-items: center; height: 75vh; margin-bottom: -40px;">
-        <img src="assets/img2.png" alt="Image 1" style="width: 30%; height: 30%; max-height: 300px; object-fit: cover; border-radius: 5px;">
-        <p style="text-align: center; font-size:50px">Frequently Asked<br> Questions</p>
+    <div id="FAQ" style="justify-content: center; align-items: center; margin: 3vh 0;">
+        <img src="assets/img2.png" alt="Image 1" class="faq-img">
+        <p class="faq-head">Frequently Asked<br> Questions</p>
     </div>
-    <div class="grid-container" style="margin-top: -90px;">
+    <div class="grid-container">
         <div class="myCard">
             <div class="innerCard">
                 <div class="frontSide">
