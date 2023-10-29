@@ -56,7 +56,7 @@
   
   .backSide,
   .backSide::before {
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #F7941D 0%, #ffc305 100%);
   }
   
   .backSide {
@@ -145,6 +145,9 @@
 #FAQ{
   display: flex;
 }
+.card-item{
+  margin: 0px 0 40px 0; 
+}
 
 @media only screen and (max-width: 1350px) {
   .grid-container {
@@ -164,6 +167,9 @@
   }
   .grid-container {
     grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .card-item{
+    margin: 0 auto 40px auto;
   }
 }
 
