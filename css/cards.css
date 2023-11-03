@@ -90,9 +90,7 @@ body{
 }
 .hero-text{
   font-size: 45px;
-  margin-left: 150px;
   padding-bottom: 50px;
-  width: 40%;
 }
 .hero{
   display: flex; 

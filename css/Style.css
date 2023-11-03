@@ -26,6 +26,10 @@ body{
   display:none !important
   }
 
+.skiptranslate > iframe{
+  display: none;
+}
+
 :root{
 
     /*      Theme colors        */
@@ -1530,7 +1534,7 @@ body {
 }
 .goog-te-gadget-simple{
   opacity: 0;
-  width: 100%;
+  width: 160px;
   height: 100%;
 }
 .translate-img{
@@ -1595,6 +1599,11 @@ p.social-content{
   border: solid 2px var(--orange-button) !important;
   transition: 0.75s border-color;
   outline: none;
+}
+
+.seek{
+  margin-top: 0;
+  padding-top: 70px !important;
 }
 
 @media only screen and (max-width: 1050px) {
